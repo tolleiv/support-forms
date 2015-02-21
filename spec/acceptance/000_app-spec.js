@@ -13,7 +13,7 @@ describe("the application", function () {
     it('responds with content', function (done) {
         browser.visit('http://localhost:3001/').then(function () {
             browser.assert.success();
-            expect(browser.html("base")).toEqual('<base href="/it-production/" />');
+            expect(browser.html("base")).toEqual('<base href="">');
             done();
         });
     });
