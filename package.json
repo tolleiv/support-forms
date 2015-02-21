@@ -1,0 +1,41 @@
+{
+    "name": "support-forms",
+    "version": "0.0.1",
+    "description": "A engine to build up support forms from Yaml config files.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "npm run lint && istanbul test jasmine-node -- --verbose --color --captureExceptions spec",
+        "lint": "jscs spec/*.js lib/*.js"
+    },
+    "keywords": [
+        "forms"
+    ],
+
+    "dependencies": {
+        "express": "4.x",
+        "serve-favicon": "*",
+        "forms": "tolleiv/forms",
+        "dotenv": "*",
+        "js-yaml": "*",
+        "nodemailer": "*",
+        "request": "*",
+        "body-parser": "*",
+        "method-override": "*",
+        "errorhandler": "*",
+        "sqlite3": ">= 0.0.1",
+        "async": ">=0.0.3",
+        "jade": "*",
+        "nodelint": "~0.6.2",
+        "bucker": "*"
+    },
+    "devDependencies": {
+        "jasmine-node": ">= 0.0.1",
+        "zombie": "*",
+        "istanbul": "~0.2.9",
+        "coveralls": "~2.10.0",
+        "jscs": "*"
+    },
+    "author": "Tolleiv Nietsch <tolleiv.nietsch@aoe.com>",
+    "license": "MIT"
+}

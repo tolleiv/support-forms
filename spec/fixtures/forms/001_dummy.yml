@@ -1,0 +1,15 @@
+name: This is a dummy form
+subline: with a subline
+processor: console
+icon: flash
+color: '#FFA140'
+highlight: true
+fields:
+  user:
+    type: hidden
+    required: true
+  title:
+    type: text
+    required: true
+  description:
+    type: textarea

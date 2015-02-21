@@ -1,0 +1,8 @@
+div(class="col-md-5 container panel" + (form.highlight ? ' panel-big' : ''))
+    div.icon
+        span(style=form.color ? 'color:'+form.color : '', class='fa fa-'+ form.icon )
+    div.text
+        h2 #{form.name}
+        p #{form.subline}
+    div.close
+        span.fa.fa-close

@@ -1,0 +1,18 @@
+name: Data backed form
+subline: work fine as well
+processor: console
+icon: database
+color: '#05CFFF'
+highlight: true
+fields:
+  user:
+    type: hidden
+    required: true
+  title:
+    type: text
+    required: true
+  cable:
+    label: 'Cable color:'
+    type: select
+    required: true
+    smart_choices: colors

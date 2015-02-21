@@ -1,0 +1,35 @@
+name: Make your choice
+processor: console
+icon: flash
+color: '#FFA140'
+highlight: true
+fields:
+  user:
+    type: hidden
+    required: true
+  choooseOne:
+    type: select
+    choices:
+      "Group 1":
+        ? 1
+        : option 1a
+        ? 2
+        : option 1b
+      "Group 2":
+        ? 3
+        : option 2a
+        ? 4
+        : option 2b
+  choooseMore:
+    type: multipleSelect
+    choices:
+      "Group 1":
+        ? 1
+        : option 1a
+        ? 2
+        : option 1b
+      "Group 2":
+        ? 3
+        : option 2a
+        ? 4
+        : option 2b

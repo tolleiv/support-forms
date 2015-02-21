@@ -1,0 +1,14 @@
+extends layout
+block content
+    div.container
+        div.row
+            div
+                -for(var p in panels)
+                    div(data-panel=panels[p])
+            div.col-md-5.supportform
+                form(method="POST", action="/")
+                    .inner
+
+
+
+

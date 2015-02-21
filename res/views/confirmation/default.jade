@@ -1,0 +1,9 @@
+.alert.alert-success(role="alert")
+    h4 Thanks for your request
+    p
+    | It has been passed to our help desk system.
+    | Feel free to contact our friendly ghost for further questions.
+    p
+    | The ticket number is #{data.ticket_id}.&nbsp;
+    a(href='https://' + helpdesk_base_path  + '/ticket/' + data.ticket_id) Open within HelpDesk
+
