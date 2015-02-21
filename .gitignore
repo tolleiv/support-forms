@@ -1,0 +1,4 @@
+.idea
+.idea/*
+res/data/*.yml
+node_modules/*
