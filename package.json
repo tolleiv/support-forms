@@ -11,7 +11,11 @@
     "keywords": [
         "forms"
     ],
-
+   "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/tolleiv/support-forms.git"
+    },
+    "engines" : { "node" : ">=0.10" },
     "dependencies": {
         "express": "4.x",
         "serve-favicon": "*",
